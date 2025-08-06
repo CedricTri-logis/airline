@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
-        run:
+        run: |
           pip3 install --user django
           python3 manage.py test
